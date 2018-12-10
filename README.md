@@ -24,6 +24,4 @@ https://youtu.be/d8x0ggBhcAQ
 
 **CONCLUSION**
 
-A description of your design in a form that people who aren’t familiar with the work can understand how the design was achieved. Imagine one of your classmates was to use your project and extend it. What would they need to know about how you built your project
 A conclusion summarizing the project and what was presented in this document
-Citations for which design elements are borrowed from others in and out of the class. Includes links to these users and highlighted code.

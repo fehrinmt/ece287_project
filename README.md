@@ -5,6 +5,12 @@ a state-machine-based implementation of a multiplayer battle simulator on an Alt
 
 The project proposal denoted a two-player game based roughly on fencing.  Our solution used an Altera FPGA to run a program of state machines displayed via VGA output on a computer monitor to implement a resetable two-player fencing game with sprites for each state.
 
+**BACKGROUND**
+
+We had originally wanted to use a set of USB joysticks to controll each of the characters, but with only one USB port on the Altera board, we decided to stick with the onboard inputs.  To keep things easy to work with and add functionality to, we decided to use the four push-buttons, two for each character, and a switch to act as a reset.
+
+To develop the code for the VGA output, we employed a VHDL VGA Controller by Scott Larson hosted on digikey.com and video timings from a Time to Explore FPGA Blog post, specifically the VGA 640 x 480 section.  (https://www.digikey.com/eewiki/pages/viewpage.action?pageId=15925278 and https://timetoexplore.net/blog/video-timings-vga-720p-1080p, respectively)  
+
 
 **PROCESS**
 

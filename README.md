@@ -15,19 +15,16 @@ Our sprites were developed in VHDL by creating a box in which we designated cert
 
 Figure 1, an example implementation of a basic face
 
-  PROCESS(disp_ena, row, column)
-
-  BEGIN
-
-    smiley (0) <= "00000000000000000000";
-    smiley (1) <= "00000111111111100000";
-    smiley (0) <= "00011100111100111000";
-    smiley (0) <= "00011111111111111000";
-    smiley (0) <= "00011100000000111000";
-    smiley (0) <= "00000111111111100000";
-    smiley (0) <= "00000000000000000000";
-    
-  END
+    PROCESS(disp_ena, row, column) 
+    BEGIN
+      smiley (0) <= "00000000000000000000";
+      smiley (1) <= "00000111111111100000";
+      smiley (0) <= "00011100111100111000";
+      smiley (0) <= "00011111111111111000";
+      smiley (0) <= "00011100000000111000";
+      smiley (0) <= "00000111111111100000";
+      smiley (0) <= "00000000000000000000";
+    END
 
 **PROCESS**
 

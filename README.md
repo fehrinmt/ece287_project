@@ -34,8 +34,12 @@ The goal of the game is to strike your oponent in one of two positions: either s
 
 **RESULTS**
 
+After successfully implementing the VGA controller, we 
+
+, but we limited ourselves somewhat due to operating through the Altera board.  While it was never the goal of the project, in working through the process, we found we would have liked to have been able to implement the project through specialized hardware that would have enabled dual controllers.
+
 https://youtu.be/d8x0ggBhcAQ
 
 **CONCLUSION**
 
-A conclusion summarizing the project and what was presented in this document
+In conclusion, our project was a success in implementing multiple independent and interactive state machines.  The game can be played, reset, and played again quickly and easily, and it was a great learning opportunity for us in putting together what we've learned in class as well as taking it to the next level with VGA output and basic sprites.  This report outlines the origins of the project, the resources and steps taken to complete it, and presents the results we found, along with a recommendation for a possible future improvement.  Also included with the results is a short video demonstration and explanation of the game.

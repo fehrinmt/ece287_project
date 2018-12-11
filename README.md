@@ -13,17 +13,17 @@ To develop the code for the VGA output, we employed a VHDL VGA Controller by Sco
 
 Our sprites were developed in VHDL by creating a box in which we designated certain pixels to be filled in yellow by using ASCII 1s and 0s as in the below example (figure 1).  While this works for the purposes of this game, we would recommend looking into using Verilog to read data from a file to create a sprite for anything more involved as our method turned out to be somewhat inefficient as well as limited in the amount of detail we were able to include.
 
-Figure 1, an example implementation of a basic face
-  PROCESS(disp_ena, row, column)
-  BEGIN
-    smiley (0) <= "00000000000000000000";
-    smiley (1) <= "00000111111111100000";
-    smiley (0) <= "00011100111100111000";
-    smiley (0) <= "00011111111111111000";
-    smiley (0) <= "00011100000000111000";
-    smiley (0) <= "00000111111111100000";
-    smiley (0) <= "00000000000000000000";
-  END
+Figure 1, an example implementation of a basic face\n
+  PROCESS(disp_ena, row, column)\n
+  BEGIN\n
+    smiley (0) <= "00000000000000000000";\n
+    smiley (1) <= "00000111111111100000";\n
+    smiley (0) <= "00011100111100111000";\n
+    smiley (0) <= "00011111111111111000";\n
+    smiley (0) <= "00011100000000111000";\n
+    smiley (0) <= "00000111111111100000";\n
+    smiley (0) <= "00000000000000000000";\n
+  END\n
 
 **PROCESS**
 
